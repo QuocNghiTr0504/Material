@@ -1,0 +1,64 @@
+mat-toolbar{
+    position: relative;
+    
+    z-index: 5;
+
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+// Button Rotate
+
+// button{
+// 
+// margin-top:600px;
+// transition: transform 0.3s ease;
+// 
+// }
+// button.rotate{
+//     transform: rotate(180deg);
+// }
+// .rotating {
+//   animation: rotate 2s infinite linear; /* Tạo hiệu ứng xoay */
+// }
+// 
+// @keyframes rotate {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+// .icons{
+//   border: none;
+//   color: brown;
+//   }
+
+.content{
+    height: 100vh;
+    padding: 24px;
+}
+mat-sidebar-container{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+height: calc(100vh - 64px);
+}
+mat-sidenav{
+   margin-left: 20px;
+   margin-top: 10px;
+    
+}
+
+.nghi{
+display: flex;
+    color: red;
+gap: 24px;
+box-sizing: border-box;
+
+}
+
+
+  
