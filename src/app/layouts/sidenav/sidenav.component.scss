@@ -1,0 +1,19 @@
+
+*{
+  padding: 0;
+  margin-right: 0;
+  box-sizing: border-box
+}
+
+mat-icon .mat-list-icons{
+  font-size: 1.4rem;
+  justify-content: center;
+  color: red;
+}
+.mat-items{
+  font-size: 15px;
+
+}
+mat-list-item{
+  border-left: 2px solid red;
+}

@@ -1,0 +1,134 @@
+{
+    "products": [
+    {
+    "id": 0,
+    "name": "AMBORGHINI HURACAN TECNICA",
+    "city": "Chicago",
+    "price":"$74,700",
+    "state": "IL",
+    "photo": "https://cdn.oto360.net/images/car/lamborghini/tecnica_icon.webp",
+    "availableUnits": 4,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 1,
+    "name": "Laborghini Aventador S",
+    "price":"$74,700",
+    "city": "Automobili Lamborghi",
+    "state": "CA",
+    "photo": "https://acquyduyphat.com/upload/images/lamborghini-aventador%20S.png",
+    "availableUnits": 0,
+    "wifi": false,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 2,
+    "name": "Laborghini Huracan Evo",
+    "price":"$74,700",
+    "city": "Juneau",
+    "state": "AK",
+    "photo": "https://img.tinbanxe.vn/images/Lamborghini/Lamborghini%20Huracan%20Evo/ANHDAIDIEN-Lamborghini-Huracan_EVO-.png",
+    "availableUnits": 1,
+    "wifi": false,
+    "laundry": false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 3,
+    "name": "Laborghini Urus 2024",
+    "price":"$74,700",
+    "city": "Chicago",
+    "state": "IL",
+    "photo": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:good,w_1200/cms/uploads/izw5wm4v6w59xaelxygr",
+    "availableUnits": 1,
+    "wifi": true,
+    "laundry": false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 4,
+    "name": "Vantage Edition",
+    "price":"3,094 tỷ",
+    "city": "Gary",
+    "state": "IN",
+    "photo": "https://images.autofun.vn/file1/4dbade94e9904ed89514765d0774aab4_606x402.png",
+    "availableUnits": 1,
+    "wifi": true,
+    "laundry": false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 5,
+    "name": "Aston Martin Valhalla",
+    "price":"18,923 tỷ",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "https://images.autofun.vn/file1/059154f0974b447b933100677aa5c6ee_606x402.png",
+    "availableUnits": 2,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 6,
+    "name": "Honda BR-V",
+    "price":"661 triệu",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "https://images.autofun.vn/file1/new936e820122a848818c2e4c0dbd98df18_606x402.jpg",
+    "availableUnits": 5,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 7,
+    "name": "Cadillac CT4-V",
+    "price":"1,146 tỷ",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "https://images.autofun.vn/file1/acf00d158a9341b1975918d5ebba5e6b_606x402.png",
+    "availableUnits": 2,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 8,
+    "name": "Lamborghini Huracan Sterrato Opera Unica",
+    "city": "Oakland",
+    "price":"7,1 tỷ",
+    "state": "CA",
+    "photo": "https://images.autofun.vn/file1/f32ecdaa128b4ae7929fc85eb9171c43_560x372.jpg",
+    "availableUnits": 10,
+    "wifi": false,
+    "laundry": false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 9,
+    "name": "Ason Martin DB11",
+    "price":"15,7 tỷ",
+    "city": "Portland",
+    "state": "OR",
+    "photo": "https://images.autofun.vn/file1/newfd3c28f6fb6e405f92705ede0d1e6589_606x402.jpg",
+    "availableUnits": 6,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    }
+    ]
+    }

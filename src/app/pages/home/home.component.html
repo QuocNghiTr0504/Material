@@ -1,4 +1,35 @@
 <h1>Home</h1>
-<br>
-<br>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis at nemo. Aspernatur, quibusdam laudantium temporibus nemo quis laborum inventore nulla voluptatum quo placeat perspiciatis autem exercitationem nihil in iste.</p>
+
+<div class="container grid grid-cols-4 gap-5">
+  <div class="card rounded border " *ngFor="let item of PageProduct">
+    <img [src]="item.photo" alt="Product Image" class="h-48 w-full object-contain">
+    <div class="content p-4 flex flex-col justify-around">
+      <h2 class="text-2xl text-slate-800 font-bold h-10  w-full">{{ item.name }}</h2>
+      <div class="price text-lg text-red-600 font-bold">
+        {{item.price}}
+      </div>
+      <p class="text-slate-950 text-sm mb-2 border-spacing-2 w-full">{{(showMore) ? item.description : item.description | slice:0:210}}
+        <span *ngIf="!showMore">...</span>
+        <a *ngIf="!showMore" (click)="showMore=true"> 
+          <button class="text-slate-800 font-medium">... Show More</button>
+        </a>
+        <span *ngIf="showMore">
+          <a (click)="showMore=false">
+            <button class="text-slate-800 font-medium">... Hide</button>
+          </a>
+        </span>
+      </p>
+    </div>
+    <div class="actions p-4 flex justify-between">
+      <button class="py-2 px-4 border  rounded hover:bg-gray-200">Action 1</button>
+      <button class="py-2 px-4 border  rounded hover:bg-gray-200">Action 2</button>
+    </div>
+  </div>
+</div>
+
+<mat-paginator 
+[pageSizeOptions]="[4,8,12]" 
+showFirstLastButtons 
+[pageSize]="4" 
+[length]="productList.length" (page)="pageChanged($event)">
+</mat-paginator>

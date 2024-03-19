@@ -1,27 +1,35 @@
-<mat-toolbar class="mat-elevation-z3 ">
-  <button  (click)="toggleSidebar()" [class.rotating]="isMenuOpen">
+<mat-toolbar class="footer-menu mat-elevation-z3 ">
+  <!-- <button  (click)="collapsed.set(!collapsed())"> -->
+    <button mat-icon-button class="trans" (click)="collapsed.set(!collapsed())">
     <mat-icon class="icons">menu</mat-icon>
-  </button> 
-  <span class="nghi">
-    <span>Home</span>
-    <span>Contact</span>
-    <span>Location</span>
-    <mat-icon>search</mat-icon>
-  </span>
+  </button>
+  <mat-slide-toggle [formControl]="toggleControl" ></mat-slide-toggle>
+  <div class="example-box" cdkDrag>
+  <app-sidenav></app-sidenav>
+  </div >
+  <button mat-icon-button>
   
+  </button>
+    <button mat-stroked-button routerLink="/home" mat-subheader>Home</button>
+    <button mat-stroked-button routerLink="" mat-subheader>search</button>
+    <button  mat-stroked-button routerLink="" mat-subheader>
+      <mat-icon>shopping_cart</mat-icon>
+    </button>
+
+    <mat-icon>search</mat-icon>
+    <button  (click)="darkMode.set(!darkMode())">
+    <mat-icon  *ngIf="!darkMode()" >dark_mode</mat-icon>
+    <mat-icon *ngIf="darkMode()">light_mode</mat-icon>
+    </button>
 </mat-toolbar>
 
-<mat-sidenav-container>
-  <mat-sidenav #sidenav opened mode="side" [style.width]="'250px'">
+<mat-sidenav-container class="" >
+  <mat-sidenav #sidenav opened mode="side" [style.width]="sideNavWidth()">
 <app-sidenav></app-sidenav>
 </mat-sidenav>
+  <mat-sidenav-content class="content" [style.margin-left]="sideNavWidth()">
 
-
-
-  <mat-sidenav-content class="content">
-    
     <router-outlet></router-outlet>
-
   </mat-sidenav-content>
 
 </mat-sidenav-container>
