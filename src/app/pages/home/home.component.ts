@@ -5,12 +5,13 @@ import { GetProductsService } from 'src/app/service/get-products.service';
 import { Product } from 'src/app/models/product';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
+import { CdkDropListGroup } from '@angular/cdk/drag-drop';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-  export class HomeComponent implements OnInit, OnChanges {
+  export class HomeComponent implements OnInit {
 
   showMore:boolean = false;
   productList!: Product[];
@@ -20,12 +21,8 @@ import { MatPaginator } from '@angular/material/paginator';
 
   constructor( private httpProducts: GetProductsService){  
   }
-  ngOnChanges(changes: SimpleChanges): void {
-    this.pageSize=this.pageSize;
-    console.log(this.pageSize)
-  }
   ngOnInit(): void {
-    this.httpProducts.getProduct().subscribe((data:any) => {
+      this.httpProducts.getProduct().subscribe((data:any) => {
       this.productList = data;
       this.UpdateRenderProduct(0);
     }); 
@@ -33,14 +30,14 @@ import { MatPaginator } from '@angular/material/paginator';
   
   UpdateRenderProduct(pageIndex: number){
     const startPage = pageIndex * this.pageSize;
-    const endPage = Math.min(startPage + this.pageSize, this.productList.length)
+    const endPage = Math.min(startPage + this.pageSize, Number(this.productList.length))
     this.PageProduct = this.productList.slice(startPage, endPage);
   }
   pageChanged(event:any) {
     const pageIndex = event.pageIndex;
+    this.pageSize = event.pageSize;
     this.UpdateRenderProduct(pageIndex);
+    console.log(event.pageSize); 
   }
- 
-
     
   }
